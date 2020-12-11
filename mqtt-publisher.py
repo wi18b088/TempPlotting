@@ -9,6 +9,7 @@ client.connect(mqttBroker)
 
 while True:
     randNumber = uniform(20.0, 21.0)
+    randNumber = "Hello from Raspberry Pi Simulator"
     client.publish("TEMPERATURE", randNumber)
     print(f"Just published {str(randNumber)} to topic TEMPERATURE.")
     time.sleep(1)
