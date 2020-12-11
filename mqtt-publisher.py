@@ -8,8 +8,7 @@ client = mqtt.Client("Temperature_Inside")
 client.connect(mqttBroker)
 
 while True:
-    randNumber = uniform(20.0, 21.0)
-    randNumber = "Hello from Raspberry Pi Simulator"
-    client.publish("TEMPERATURE", randNumber)
-    print(f"Just published {str(randNumber)} to topic TEMPERATURE.")
+    randNumber = uniform(18.0, 27.0)
+    client.publish("TEMPDISPLAY", randNumber)
+    print(f"Just published {str(randNumber)} to topic TEMPDISPLAY.")
     time.sleep(1)
