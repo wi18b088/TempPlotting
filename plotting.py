@@ -4,7 +4,7 @@ from matplotlib import pyplot as plt
 import matplotlib
 
 # Import data
-sensordata = pd.read_excel("/home/albert/Desktop/Pietro/PythonPlotting/data/sensor-data.xlsx", "data")
+sensordata = pd.read_excel("data/sensor-data.xlsx", "data")
 
 # Show data
 print(sensordata)
