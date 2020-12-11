@@ -7,7 +7,8 @@ import matplotlib
 sensordata = pd.read_excel("data/humi.xlsx")
 # sensordata = pd.read_excel("data/sensor-data.xlsx", "data")
 sensordata.rename(columns={
-    'Set Temperature [°C]':'Temperature',
+    'Set Temperature [°C]':'SetTemperature',
+    'Temperature [°C]':'Temperature',
     'Humidity [%]':'Humidity',
     'Heater? [1=on, 0=nothing, -1=ventilator]':'Heater',
     'Air Quality [-]':'Air Quality',
