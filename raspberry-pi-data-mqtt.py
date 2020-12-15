@@ -5,7 +5,8 @@ from time import sleep
 import time
 import paho.mqtt.client as mqtt_client
 import paho.mqtt.subscribe as mqtt_subscribe
-import scripts.display as oled ## thing necessary for the OLED display
+# import scripts.display as oled ## thing necessary for the OLED display
+import display as oled ## thing necessary for the OLED display
 
 ### Packages END ###
 
