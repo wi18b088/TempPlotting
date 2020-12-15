@@ -41,7 +41,8 @@ mqtt_port = 1883
 # Send Temperature Information: TEMPDISPLAY
 # publishing_topic1 = "testtopic/7ZW5M0/group_33&34/temperature"
 publishing_topic1 = "TEMPDISPLAY"
-publishing_topic2 = "testtopic/7ZW5M0/group_33&34/humidity"
+# publishing_topic2 = "testtopic/7ZW5M0/group_33&34/humidity"
+publishing_topic2 = "HUMDISPLAY"
 publishing_topic3 = "testtopic/7ZW5M0/group_33&34/airquality"
 client_topic = "testtopic/7ZW5M0/group_33&34/input"
 # subscription_topic = "testtopic/7ZW5M0/group_33&34/subscription"
